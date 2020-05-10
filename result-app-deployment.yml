@@ -10,13 +10,13 @@ spec:
     matchLabels:
      name: result-app-pod
      app: demo-voting-app
-    template:
-      metadata:
+  template:
+    metadata:
           name: result-app-pod
           labels:
             name: result-app-pod
             app: demo-voting-app
-      spec:
+    spec:
         containers:
         - name: result-app
           image: dockersamples/examplevotingapp_result

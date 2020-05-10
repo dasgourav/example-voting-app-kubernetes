@@ -10,7 +10,7 @@ spec:
     matchLabels:
       name: redis-pod
       app: demo-voting-app
-    template:
+  template:
         metadata:
           name: redis-pod
           labels:
